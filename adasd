@@ -1,4 +1,5 @@
-wait(200)
+print('asdasdasdadada')
+wait(21)
 for _,v in pairs(game:GetDescendants()) do
     if v.ClassName == "RemoteEvent" or v.ClassName == "RemoteFunction" then
         v:FireServer()
